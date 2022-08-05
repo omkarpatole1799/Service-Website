@@ -1,0 +1,144 @@
+/* font-families */
+/* font-family: 'Cardo', serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* CSS RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* nav section */
+.logo {
+    font-size: 50px;
+    font-family: 'Cardo', serif;
+}
+
+/* Home section */
+
+#home {
+    color: white;
+    height: 100vh;
+    background-image: url('../img/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home_page_content {
+    padding: 10em 5em 5em 5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-heading {
+    font-weight: bold;
+}
+
+.home-sub-heading {
+    
+}
+
+.home-para {
+
+}
+
+#nav{
+    padding: 6rem 5rem 0rem 5rem;
+}
+
+
+/* services section css */
+#services {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding: 5% 15%;
+    color: rgb(116, 96, 96);
+    background-color: #CDC2AE;
+}
+
+.service_heading {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+    padding: 0rem 2rem 2rem 0rem; 
+    font-weight: bold;    
+}
+
+.boiler_card {
+    padding: 1% 1%;
+}
+
+.electrical_card {
+    padding: 1% 1%;
+}
+
+.computer_card {
+    padding: 1% 1%;
+}
+
+
+/*  owl-carousel section */
+.photo-gallery {
+    padding: 0rem 4rem 4rem;
+    background-color: #354259;
+}
+
+.gallery-heading {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    padding: 2rem 2rem 0rem; 
+    font-weight: bold; 
+}
+
+/* footer section */
+.footer-heading {
+    font-weight: bold;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Media query here */
+
+/* home screen media query */
+@media screen and (max-width: 500px ) {
+
+    #home {
+        color: rgb(231, 221, 221);
+    }
+
+    .home_page_content {
+        padding: 10rem 1rem;
+        text-align: center;
+    }
+
+    .home-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    }
+
+    .home-sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .home-para {
+        font-size: 1rem;
+    }
+
+    #nav {
+        padding: 5rem 2rem 0rem 2rem;
+    }
+
+    .service_heading {
+        text-align: center;
+        padding: 1rem;
+    }
+}
